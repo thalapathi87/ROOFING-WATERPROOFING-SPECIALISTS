@@ -37,7 +37,7 @@ Designed keeping **Chennai’s harsh summers and heavy monsoons** in mind.
  ![ABOUT PAGE](images/about.png)
 
   ###provide page page
- ![plogs PAGE](images/plogs.png)
+ ![plogs PAGE](images/blogs.png)
 
  ###FAQ PAGE
 ![FAQ PAGE] (images/faq.png)
@@ -70,6 +70,7 @@ Designed keeping **Chennai’s harsh summers and heavy monsoons** in mind.
 ---
 
 ## 📂 Project Structure
+
 
 
 
