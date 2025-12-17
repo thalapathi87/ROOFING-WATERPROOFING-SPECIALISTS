@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Chennai RoofCare</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (same as main page, no surprises) -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light container-fluid py-3 position-sticky top-0 shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/main-logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link px-3" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-3 active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTACT HEADER -->
+<section class="pt-5 mt-5 bg-light">
+    <div class="container py-5 text-center">
+        <h6>Contact Us</h6>
+        <h2 class="fw-bold display-4">Get in Touch</h2>
+        <p>Have roof issues? Monsoon panic? Heat torture? We fix all that.</p>
+    </div>
+</section>
+
+<!-- CONTACT CONTENT -->
+<section class="my-5">
+    <div class="container">
+        <div class="row g-5">
+
+            <!-- CONTACT FORM -->
+            <div class="col-md-6">
+                <h4 class="mb-4">Send Us a Message</h4>
+
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Your name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="your@email.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input type="text" class="form-control" placeholder="+91 XXXXX XXXXX">
+                    </div>
+
+                    <div class="mb-3" >
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4" placeholder="Tell us your problem"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary btn-lg w-100">
+                        Submit Request
+                    </button>
+                </form>
+            </div>
+
+            <!-- CONTACT DETAILS -->
+            <div class="col-md-6">
+                <h4 class="mb-4">Contact Information</h4>
+
+                <p><strong>Address:</strong><br>
+                    21, Lakshmi Street,<br>
+                    T. Nagar, Chennai – 600017
+                </p>
+
+                <p><strong>Phone:</strong><br>
+                    +91 89253 45261
+                </p>
+
+                <p><strong>Email:</strong><br>
+                    info@chennairoofcare.com
+                </p>
+
+                <p><strong>Working Hours:</strong><br>
+                    Mon – Sat: 9:00 AM – 7:00 PM
+                </p>
+
+                <!-- MAP (optional but looks pro) -->
+                <iframe
+                    src="https://maps.google.com/maps?q=T%20Nagar%20Chennai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="250"
+                    style="border:0;"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-4 border-top">
+    <p>© 2024 Chennai RoofCare. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
